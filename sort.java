@@ -36,7 +36,7 @@ public class sort {
             }
 
             // If there's no data or only one row, exit early
-            if (rows.size() <= 1) {
+            if (rows.size() <= 0) {
                 System.out.println("Not enough data to process.");
                 return;
             }

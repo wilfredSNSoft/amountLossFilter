@@ -90,7 +90,7 @@ public class EzSort {
                 rows.add(columns);
             }
 
-            if (rows.size() <= 1) return; // No data to process
+            if (rows.size() <= 0) return; // No data to process
 
             // Write the first row (header) to output
             bw.write(String.join(",", rows.get(0)));
